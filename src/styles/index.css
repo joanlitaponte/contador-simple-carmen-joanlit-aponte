@@ -1,11 +1,53 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #c4a2b5, #0f172a);
+  font-family: Arial, sans-serif;
+  color: white;
+}
 
-*/
+
+.contenedor {
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+.titulo {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: hsl(51, 100%, 42%);
+}
+
+
+.reloj {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.caja {
+  width: 60px;
+  height: 80px;
+  background: #0f172a;
+  color: #38bdf8;
+
+  font-size: 45px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+}
+
+
+.icono {
+  font-size: 30px;
+  color: white;
+}
